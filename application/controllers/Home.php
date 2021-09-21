@@ -6,4 +6,9 @@ class Home extends CI_Controller {
   $this->load->view('home');
 }
 
+  public function aboutus()
+{
+  $this->load->view('aboutus');
+}
+
 }
