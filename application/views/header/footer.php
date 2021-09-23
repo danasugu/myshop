@@ -1,3 +1,3 @@
-<p>all footer here</p>
+<script src=""></script>
 </body>
 </html>

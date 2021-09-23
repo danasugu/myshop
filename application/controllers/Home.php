@@ -14,6 +14,7 @@ class Home extends CI_Controller {
   public function aboutus()
 {
   $this->load->view('header/header');
+ $this->load->view('css/extracss');
   $this->load->view('header/css');
   $this->load->view('header/navbar');
   $this->load->view('about/mainHome');
