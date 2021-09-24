@@ -9,6 +9,7 @@ class Home extends CI_Controller {
   $this->load->view('header/navbar');
   $this->load->view('home/mainHome');
   $this->load->view('header/footer');
+  $this->load->view('header/htmlclose');
 }
 
   public function aboutus()
@@ -30,7 +31,6 @@ public function login()
   $this->load->view('header/navbar');
   $this->load->view('login/index');
   $this->load->view('header/footer');
-  $this->load->view('js/extrajs');
   $this->load->view('header/htmlclose');
 }
 }
