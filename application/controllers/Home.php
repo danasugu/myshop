@@ -19,6 +19,7 @@ class Home extends CI_Controller {
   $this->load->view('header/navbar');
   $this->load->view('about/mainHome');
   $this->load->view('header/footer');
+  $this->load->view('header/htmlclose');
 }
 
   public function login()
