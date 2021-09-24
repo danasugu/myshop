@@ -1,1 +1,1 @@
-<script src="jquery"></script>
+<script src=""></script>
