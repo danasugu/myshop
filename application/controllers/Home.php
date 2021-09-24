@@ -20,6 +20,7 @@ class Home extends CI_Controller {
   $this->load->view('about/mainHome');
   $this->load->view('header/footer');
   $this->load->view('header/htmlclose');
+  $this->load->view('js/extrajs');
 }
 
   public function login()
